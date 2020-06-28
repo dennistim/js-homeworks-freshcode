@@ -24,3 +24,16 @@ function checkMultiplicity(a, b) {
     return a % b === 0;
 
 }
+
+/**
+ *
+ * @param {number} a
+ * @param {number} b
+ * @param {number} c
+ * @return {boolean}
+ */
+function isTriangle(a, b, c) {
+
+    return a <= b + c && b <= a + c && c <= a + b;
+
+}
