@@ -37,3 +37,50 @@ function isTriangle(a, b, c) {
     return a <= b + c && b <= a + c && c <= a + b;
 
 }
+
+/**
+ *
+ * @param {number} a
+ * @param {number} h
+ * @return {number}
+ */
+function rhombus(a, h) {
+
+    return a*h;
+}
+
+/**
+ *
+ * @param {number} r
+ * @param {number} h
+ * @return {number}
+ */
+function cylinder(r, h) {
+
+    return 2*3.14*r*(r+h);
+
+}
+
+/**
+ *
+ * @param {number} a
+ * @param {number} h
+ * @return {number}
+ */
+function triangle(a, h) {
+
+    return 1/2*a*h;
+
+}
+
+/**
+ *
+ * @param {number} a
+ * @param {number} b
+ * @return {number}
+ */
+function rectangle(a, b) {
+
+    return a*b;
+
+}
